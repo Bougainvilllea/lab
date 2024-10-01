@@ -1,3 +1,5 @@
+import exceptions.WrongHeight;
+import exceptions.WrongRadius;
 import geometry2d.Circle;
 import geometry2d.Rectangle;
 import geometry3d.Cylinder;
@@ -45,6 +47,22 @@ public class Main {
         System.out.println(rectangle.area());
         System.out.println(circle.area());
         System.out.println(cylinder.volume());
+
+        try {
+            Circle circle1 = new Circle(-33333);
+        }
+        catch (WrongRadius ex){
+            System.out.println(ex.getMessage());
+        }
+
+
+        try {
+            Cylinder cylinder1 = new Cylinder(3, -4444);
+        }
+        catch (WrongHeight ex){
+            System.out.println(ex.getMessage());
+        }
+
 
     }
 }
