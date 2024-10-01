@@ -1,5 +1,3 @@
-package org.example;
-
 public class Button {
 
     int click = 0;

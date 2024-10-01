@@ -1,5 +1,3 @@
-package org.example;
-
 public class Bell {
     boolean flag = false;
     public void sound(){

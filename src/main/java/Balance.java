@@ -1,5 +1,3 @@
-package org.example;
-
 public class Balance {
     int right_weight = 0;
     int left_weight = 0;
