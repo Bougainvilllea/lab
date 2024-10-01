@@ -1,3 +1,7 @@
+import geometry2d.Circle;
+import geometry2d.Rectangle;
+import geometry3d.Cylinder;
+
 public class Main {
     public static void main(String[] args) {
         Button click = new Button();
@@ -19,5 +23,25 @@ public class Main {
         nubers.addNumber(3);
         System.out.println(nubers.even());
         System.out.println(nubers.odd());
+
+        Table table = new Table(2, 3);
+        table.getValue(1, 1);
+        System.out.println(table.getValue(1, 1));
+        table.setValue(1, 1, 20050805);
+        table.getValue(1, 1);
+        System.out.println(table.getValue(1, 1));
+        table.cols();
+        System.out.println(table.cols());
+        table.rows();
+        System.out.println(table.rows());
+
+        System.out.println(table.toString());
+        System.out.println(table.average());
+
+        Cylinder cylinder = new Cylinder(3, 4);
+        cylinder.volume();
+        Circle circle = new Circle(3);
+        Rectangle rectangle = new Rectangle(3, 4);
+
     }
 }
