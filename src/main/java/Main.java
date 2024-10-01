@@ -42,6 +42,9 @@ public class Main {
         cylinder.volume();
         Circle circle = new Circle(3);
         Rectangle rectangle = new Rectangle(3, 4);
+        System.out.println(rectangle.area());
+        System.out.println(circle.area());
+        System.out.println(cylinder.volume());
 
     }
 }
