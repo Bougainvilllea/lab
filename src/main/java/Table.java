@@ -58,4 +58,5 @@ public class Table {
         return sum_table / (cols * rows);
 
     }
+
 }
