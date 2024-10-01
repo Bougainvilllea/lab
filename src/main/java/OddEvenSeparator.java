@@ -12,10 +12,12 @@ public class OddEvenSeparator {
             list_odd.add(number);
         }
     }
-    public ArrayList<Integer> even(){
-        return list_even;
+    public void even(){
+
+        System.out.println(list_even);
     }
-    public ArrayList<Integer> odd(){
-        return list_odd;
+    public void odd(){
+
+        System.out.println(list_odd);
     }
 }

@@ -23,8 +23,8 @@ public class Main {
 
         OddEvenSeparator nubers = new OddEvenSeparator();
         nubers.addNumber(3);
-        System.out.println(nubers.even());
-        System.out.println(nubers.odd());
+        nubers.even();
+        nubers.odd();
 
         Table table = new Table(2, 3);
         table.getValue(1, 1);
