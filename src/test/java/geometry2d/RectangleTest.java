@@ -15,6 +15,6 @@ class RectangleTest {
     @Test
     void testToString() {
         Rectangle rectangle = new Rectangle(2, 2);
-        assertEquals("Rectangle: 4.0", rectangle.toString());
+        assertEquals("Rectangle: a: 2.0 b: 2.0", rectangle.toString());
     }
 }
